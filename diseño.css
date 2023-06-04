@@ -1,0 +1,99 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: sans-serif;
+}
+
+body{
+    background-image: url(../img/fondo2.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+header{
+    width: 100%;
+    padding: 40px;
+    color: white;
+    text-align: center;
+    background: #112d4e;
+}
+nav ul{
+    list-style: none;
+    background: black;
+    text-align: center;
+    
+} 
+nav ul li{
+    display: inline-block;
+    padding: 20px;
+    transition: all ease-in-out 250ms;
+}
+.nav-enlace{
+    background: black;
+    color: white;
+    padding: 10px 30px;
+    text-decoration: none;
+}
+.nav-enlace:hover{
+    background: white;
+    color: red;
+    
+}
+.hide{
+    font-size: 22px;
+    padding: 16px;
+    background: #112d4e;
+    color: white;
+    cursor: pointer;
+    display: none;
+}
+@media (max-width:900px){
+    ul li{
+        width: 100%;
+        padding: 16px;
+        text-align: left;
+
+    }
+    nav ul{
+        display: none;
+    }
+    .hide{
+        display: block;
+        
+    }
+}
+hr{
+    color: white;
+}
+h1{
+    color: white;
+}
+h2{
+    color: rgb(9, 114, 26);
+    text-align: center;
+}
+
+#piepagina{
+    background-color: #6b6d6e;
+}
+
+h3{
+    color: rgb(43, 128, 161);
+    text-align: center;
+}
+h4{
+    color: blue;
+    text-align: center;
+}
+#imagen1{
+    width: 300px;
+    height: 400px;
+}
+.btn btn-outline-success{
+    text-align: center;
+    
+}
+p{
+    color: white;
+}
